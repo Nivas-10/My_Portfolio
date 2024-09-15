@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nivas - My Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Nivas</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#timeline" class="navbar-link" data-nav-link>Academic Timeline</a>
+          </li>
+
+          <li>
+            <a href="#resume" class="navbar-link" data-nav-link>Resume</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+        <script src="script.js"></script>
+      </button>
+
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 540; --height: 940;">
+            <img src="./20240625_112722.jpg" width="540" height="640" alt="Yalamarthy Nivas" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Yalamarthy Nivas</p>
+
+            <h1 class="h1 hero-title">Student</h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Python Developer</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Web Developer</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Gamer</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Trader</span>
+                </a>
+              </li>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio"style="background-color:rgb(245, 243, 240)"></style>
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">About </h2> 
+        
+          <p> I am currently pursuing my Master's degree at IIIT Hyderabad, focusing on advanced computer science topics and emerging technologies. My academic journey fuels my passion for modern web development, where I've honed skills in Python, JavaScript, HTML, and CSS. I am also well-versed in data structures and algorithms, which I use to build efficient and innovative solutions.
+
+            <br><br>
+            Driven by a curiosity for new technologies and a desire to solve real-world problems, I am dedicated to leveraging my expertise in dynamic and impactful projects. My goal is to continue growing as a developer and make meaningful contributions to the tech community.
+            
+            <br><br>
+            Feel free to connect with me to discuss potential collaborations, share insights, or explore new opportunities in technology!</p>
+        </div>
+      </section>
+
+      <section class="section skills has-before" id="skills" aria-label="skills"
+        style="background-image: url('./skills-bg.png')">
+        <div class="container">
+
+          <div class="skills-content">
+
+            <p class="section-subtitle">Skills</p>
+
+            <h2 class="h2 section-title">Programming Skills</h2>
+
+            <p class="section-text">
+              For more than five years, I have been deeply engaged with modern web development and cutting-edge programming languages. 
+              My interests include Python, web technologies such as HTML and CSS, JavaScript, and data structures.
+            </p>
+
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">HTML & CSS</h3>
+
+                  <data class="skill-value" value="80%">80%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </li>
+            
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Python Programing</h3>
+
+                  <data class="skill-value" value="75%">75%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 75%"></div>
+                </div>
+              </li>
+              <li class="skills-item"></li>
+                <div class="wrapper">
+                  <h3 class="skill-title">Data Structures &Algorithms</h3>
+
+                  <data class="skill-value" value="50%">50%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item"></li>
+                <div class="wrapper">
+                  <h3 class="skill-title">JavaScript</h3>
+
+                  <data class="skill-value" value="10%">10%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 10%"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="skills-banner has-before"></div>
+
+        </div>
+      </section>
+      <section class="section timeline" id="timeline" aria-label="timeline">
+        <div class="container">
+
+          <p class="section-subtitle">Academic Timeline</p>
+
+          <h2 class="h2 section-title">Education</h2>
+
+          <ul class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">June,2024 - Today</h3>
+
+              <p class="item-title">International Institute Of Information Technology</p>
+              <p>Masters in Informtion Technology</p>
+              <br>
+              <p class="item-address">Hyderabad, India</p>
+              <p>Undertaking</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">August, 2020 - April, 2024</h3>
+
+              <p class="item-title">Gayatri Vidya Parishad College of Engineering </p>
+              <p>Bacherlor's of Technology in Computer Science Engineering </p>
+              <br>
+              <p class="item-address">Visakhapatnam</p>
+              <p>Completed with CGPA of 8.80</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">May, 2018 - March, 2020</h3>
+
+              <p class="item-title">Sri Chaitanya College</p>
+              <p>Board of Intermediate </p>
+              <br>
+              <p class="item-address">Vijayawada</p>
+              <p>Completed with CGPA of 9.29</p>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section resume" id="resume" aria-label="resume"
+        style="background-color:rgb(245, 243, 240)"></style>
+        <div class="container">
+          
+          <div class="resume-content">
+
+            <p class="section-subtitle">Find my Resume</p>
+
+            <h2 class="h2 section-title">Resume</h2>
+            <a href="https://drive.google.com/file/d/16FZ--K0oG6HUevy62Y8JciufcZndpG4G/view?usp=sharing" download><h1 class="h1 section-title">Download Resume</h1></a>
+
+            <p class="section-text">
+              If you would like to learn more about my professional background and qualifications, 
+              feel free to download my resume. Click the button above to access it.
+            </p>
+
+          </div>
+
+          
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              Please fill out the form in this section to get in touch with me, or connect me on LinkedIn. 
+            </p>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  IITH,Gachibowli,Hyderabad,India
+                </address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:Nivas.20022@gmail.com" class="contact-link">Nivas.20022@gmail.com</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email_address" aria-label="email" placeholder="Email" required
+              class="input-field">
+
+            <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+            <button type="submit" class="submit-btn">
+              <span class="span">Submit</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024. All rights reserved by <a href="#" class="copyright-link">Nivas.</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/yalamarthy-nivas-6830131b4/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://x.com/home" target="_blank" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/nivas_yalamarthy/" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
